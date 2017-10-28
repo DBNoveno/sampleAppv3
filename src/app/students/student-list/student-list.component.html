@@ -1,0 +1,16 @@
+<div style="text-align: center">
+  
+    <h5>Students</h5>
+      
+    <ul class="list-group hover">
+          
+      <li class="list-group-item" *ngFor="let student of studentlist" (click)="onItemClick(student)">
+      
+            {{student.studentnumber}} - {{student.name}} 
+          
+      </li>  
+        
+    </ul>
+  
+  </div>
+  
